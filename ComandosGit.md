@@ -2,7 +2,7 @@
 
 - `git help`
   Muestra todos los comandos usables en git y muestra informacion general del git como la version
-  ![](git%20help.png)
+  ![](git%20help.png) 
 - `ls`
   Enlista todos los directorios disponibles
   ![](ls.png)
@@ -29,52 +29,44 @@
   ![](git_status.png)
 - `git add archivo.txt`  
   Agrega un archivo específico al área de preparación (staging).
-
+  ![](git_add_Archivo.png)
 - `git add .`  
   Agrega todos los archivos modificados al área de preparación.
-
+  ![](git_add.png)
 - `git reset archivo.txt`  
   Quita un archivo del área de preparación.
-
-- `git commit -m "Mensaje del commit"`  
+  ![](git_reset_archivo.png)
+- `git commit -m "Texto commit"`  
   Crea un commit con los archivos en staging y un mensaje descriptivo.
-
-- `git commit -am "Mensaje"`  
-  Agrega y commitea archivos ya rastreados en un solo paso.
-
+  ![](git_commit_m.png)
 - `git log`  
-  Muestra el historial de commits.
-
-- `git log --oneline`  
-  Muestra el historial en una sola línea por commit.
-
-##  Ramas
+  Muestra el historial de commits creados
+  ![](git_log.png)
 - `git branch`  
-  Lista todas las ramas locales.
-
+  Lista todas las ramas
+  ![](git_branch.png)
 - `git branch nueva-rama`  
-  Crea una nueva rama.
-
+  Crea una nueva rama
+  ![](git_nueva_rama.png)
+- `git switch`
+  Se ubica en la rama de nombre ingresado
+  ![](git_switch.png)
 - `git checkout nueva-rama`  
-  Cambia a otra rama.
-
+  Se ubica en la rama de nombre ingresado
+  ![](git_checkout_rama.png)
 - `git checkout -b nueva-rama`  
-  Crea y cambia a una nueva rama en un solo paso.
-
+  Crea una nueva rama y se ubica en esa automaticamente
+![](git_check_rama.png)
 - `git merge rama-secundaria`  
   Fusiona la rama especificada con la actual.
-
+  ![](gir_merge_rama.png)
 - `git branch -d rama-secundaria`  
   Elimina una rama local.
-
-##  Remotos
+  ![](git_delete_rama.png)
 - `git remote -v`  
   Muestra los repositorios remotos configurados.
+  ![](git_remote.png)
 
-- `git remote add origin https://github.com/usuario/repositorio.git`  
-  Agrega un repositorio remoto llamado `origin`.
-
-##  Push y Pull
 - `git push origin main`  
   Envía tus commits locales a la rama `main` del repositorio remoto.
 
@@ -84,7 +76,6 @@
 - `git fetch`  
   Descarga los cambios del remoto sin fusionarlos.
 
-##  Limpieza y correcciones
 - `git stash`  
   Guarda temporalmente los cambios no commiteados.
 
