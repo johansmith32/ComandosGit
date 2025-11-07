@@ -79,17 +79,10 @@
 - `git fetch`  
   Descarga los cambios del remoto sin fusionarlos.<br>
   ![](git_fetch.png)
-- `git stash`  
-  Guarda temporalmente los cambios no commiteados.<br>
-
-- `git stash pop`  
-  Recupera los cambios guardados con `stash`.<br>
-
-- `git rm archivo.txt`  
-  Elimina un archivo del repositorio y del sistema de archivos.<br>
-
 - `git diff`  
   Muestra las diferencias entre archivos modificados y el último commit.<br>
+  ![](git_diff.png)
 
 - `git show`  
   Muestra detalles de un commit específico.<br>
+  ![](git_show.png)
